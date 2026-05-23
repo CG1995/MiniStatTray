@@ -26,6 +26,18 @@ MiniStatTray 是一个很小的 Windows 通知区域监控工具，用来显示 
 
 双击运行即可，不需要安装。
 
+## 运行环境
+
+MiniStatTray 使用 .NET Framework 编写，是因为它可以直接调用 Windows 的托盘和 WinForms API，编译出来的 exe 也非常小。
+
+大多数 Windows 10 和 Windows 11 电脑已经自带兼容的 .NET Framework 4.x 运行环境。  
+如果双击后提示缺少 .NET Framework，请安装微软官方运行库：
+
+- [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+- [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net481)
+
+为了兼容更多旧版 Windows，推荐优先安装 .NET Framework 4.8。
+
 ## 构建
 
 在已安装 .NET Framework 的 Windows 上运行：
