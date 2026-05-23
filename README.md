@@ -1,5 +1,7 @@
 # MiniStatTray
 
+[简体中文](README.zh-CN.md) | English
+
 MiniStatTray is a tiny Windows notification-area monitor for CPU load, GPU power, memory usage, and live network throughput.
 
 It is designed to stay lightweight and avoid low-level sensor drivers. NVIDIA GPU power is read through NVML when available; CPU, memory, and network stats use Windows APIs.
