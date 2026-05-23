@@ -6,6 +6,8 @@ MiniStatTray 是一个很小的 Windows 通知区域监控工具，用来显示 
 
 它的目标是轻量、直接、少打扰：不安装驱动，不做复杂配置，只在任务栏通知区域显示几个小图标。
 
+![MiniStatTray 任务栏预览](docs/taskbar-preview.svg)
+
 ## 显示内容
 
 程序会显示 5 个通知区域图标，固定顺序为：
