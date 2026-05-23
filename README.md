@@ -26,6 +26,17 @@ The ready-to-run executable is in:
 
 Double-click it to run. No installer is required.
 
+## Runtime Requirement
+
+MiniStatTray is built with .NET Framework because it can use Windows tray/WinForms APIs directly and keeps the executable very small.
+
+Most Windows 10 and Windows 11 PCs already include a compatible .NET Framework 4.x runtime. If the app does not start and Windows asks for .NET Framework, install the official Microsoft runtime:
+
+- [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+- [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net481)
+
+For maximum compatibility, .NET Framework 4.8 is the safest recommendation for older supported Windows versions.
+
 ## Build
 
 On Windows with .NET Framework installed:
